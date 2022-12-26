@@ -1,6 +1,6 @@
 import * as React from "react"
 import type { PageProps } from "gatsby"
-
+import '../styles/global.css'
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
