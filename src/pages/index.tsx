@@ -6,7 +6,7 @@ const IndexPage: React.FC<PageProps> = () => {
   return (
 
 
-    <main className="z-20 grid h-full snap-y snap-mandatory auto-rows-[100%] grid-rows-[100%_auto] overflow-y-auto">
+    <main className="z-20 grid h-[100vh] snap-y snap-mandatory auto-rows-[100%] grid-rows-[100%_auto] overflow-y-auto">
       <section className="flex snap-start items-center justify-center bg-amber-200 text-8xl">Welcome....</section>
       <nav className="sticky top-0 bottom-0 z-30 flex w-full flex-row items-center justify-between gap-4 border-b-2 border-gray-50 bg-gray-50 py-4 px-4 shadow-md">
         <h1 className="flex-1 font-semibold">Nada Svendborg</h1>
